@@ -1,0 +1,334 @@
+
+  @font-face {
+    font-family:'pisxel' ;
+    src: url(../photos/slkscr.ttf);
+  }
+  @font-face {
+    font-family:'piexl1';
+    src: url(../photos/slkscreb.ttf);
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    /*font-family: 'optima',sans-serif;*/
+    
+    
+     box-sizing: border-box;
+}
+body{
+     background-size: cover;
+     box-sizing: border-box;
+    
+     background-repeat: no-repeat;
+   
+     background-image: url(../photos/cover.gif);
+}
+
+
+/*here the nav bar code*/
+
+.nav_div{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+.nav_div nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-position: top;
+    margin-bottom: 3%;
+    
+
+
+}
+.nav_div span{
+   
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'pisxel';
+     
+} 
+ 
+.nav_div #L{
+    color:#dc39b0;
+    
+
+}
+.nav_div #E{
+    color: #ebd7eb;
+
+}
+.nav_div #V{
+    color:#9f32da;
+
+}
+.nav_div #E1{
+    color: #ca58ca;
+
+}
+.nav_div #L1{
+    color:#dc39b0;
+
+}
+.nav_div #U{
+    color: azure;
+}
+.nav_div #P{
+    color:  #ca58ca;
+
+}
+
+.nav_div #h{
+    color:azure;
+    
+
+}
+.nav_div nav h2{
+    width:18%;
+    
+}
+
+.nav_div ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    padding-bottom: 5%;
+    
+
+}
+.nav_div ul li a{
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+} 
+.nav_div ul li a:hover{
+    color: #b9089b;
+    transition: .4s;
+}
+.nav_div .about{
+
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.about:hover{
+    color: #b9089b;
+    transition: .4s;
+
+}
+/*herer the search*/
+.d-flex button{
+    margin-right: 6%;
+    background-color: black;
+}
+.d-flex button:hover{
+    background-color: #b9089b;
+    border-color: #b9089b;
+    border-block-start-color:rgb(210, 120, 255) ;
+    
+    
+}
+/*here the about us button*/
+.butt .about_us_button{
+
+    background-color: #b9089b;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px ;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top:50%;
+    margin-left: 10%;
+    margin-bottom: 100%;
+    text-align: end;
+}
+.butt .about_us_button:hover{
+    transition: all;
+    background-color: #e4b5e4;
+
+}
+
+
+
+.butt{
+    margin-bottom: 90%;
+    margin-top: 20%;
+}
+
+
+
+
+
+
+/*aside*/
+
+
+
+.nav_div .aside_{
+    float: right;
+    width: 20%;
+    margin-right: 0%;
+    margin-left: 0%;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(255, 255, 255) ;
+    font-size: x-small;
+    font-weight: lighter;
+    font-family: 'piexl1';
+    
+
+}
+.nav_div .aside_ h4{
+    color: #b9089b;
+    font-family: 'pisxel';
+    
+}
+.aside_ .aside_phargraph{
+    margin-bottom: 30%;
+}
+
+
+
+
+
+
+ 
+/*sectoion*/
+.dj{
+    font-family: 'raleway';
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: #3a030300;
+    margin-bottom: 3px;
+}
+.dj h1{
+    
+    
+    font-size: 3em; 
+    margin: 35px 0;
+    margin-left: 9%;
+    margin-top: 3px;
+   padding-top: 5px;
+    text-align: center;  
+    font-weight: 500;
+    color: aliceblue;
+    font-family: 'pisxel'
+    
+}
+.dj .contetn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 15%;
+  
+
+
+}
+.col-mid h3{
+    color: #b9089b;
+    font-family: 'piexl1';
+}
+.container:hover .col-mid h3{
+    color: aliceblue;
+}
+.dj .servicse{
+    margin-bottom: 40%;
+}
+.col-mid span{
+    color: aliceblue;
+
+}
+.container:hover .col-mid span{
+    color: #b9089b;
+}
+.container{
+    background-color: #403b40;
+    /*min-height: 120px;*/
+    height: 390px;
+    width:550px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0);
+    margin: 10px 4px;
+    box-shadow: 0px 15px 50px rgba(233, 65, 146, 0.664);
+}
+.container p{
+    font-size: medium;
+    font-family: 'pisxel';
+    color: aliceblue;
+     
+}
+
+.servicse .container:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),#460974);
+    cursor: pointer;
+    color: #000;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition: .5s;
+}
+
+
+
+
+
+/*here th footer*/
+
+footer img{
+    size: 70px;
+    height: 70px;
+    width: 70px;
+    margin-left: 3%;
+}
+.fo_ter{
+    background-color: black;
+    margin-bottom: 0;
+    height: 5%;
+    margin-top: 10%;
+}
+
+footer .footer-bottom{
+    background: #111;
+    height: 5%;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px;
+    color:#fff;
+    
+    }
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+    
+   
+
+

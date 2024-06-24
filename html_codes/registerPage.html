@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script deffer  src="../javascript/login.js" type="text/javascript"></script>
+    <title>about us</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css_codes/register.css">
+  
+    
+
+
+
+
+
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Sign up</button>
+            </div>
+            <div class="social-icons">
+            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=1661689889&extra_1=s%7Cc%7C320280751357%7Ce%7Cfacebook%7C&placement=&creative=320280751357&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1661689889%26adgroupid%3D65800001964%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D9076767%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF8P1whGU18QOROhbfu8GWFRO4IDfKlggC70js7ug4KtiQ0FfhAcifoaAjZEEALw_wcB"><img src="../photos/WhatsApp Image 2023-02-01 at 09.37.211.jpg"></a>
+            <a href="https://twitter.com/level1up2"><img src="../photos/WhatsApp Image 2023-02-01 at 09.37.23.jpg"></a>
+            <a href="https://www.google.com/"><img src="../photos/WhatsApp Image 2023-02-01 at 09.37.21.jpg"></a>
+        </div>
+        <!--log in-->
+        <form id="login" class="input-group" name="myform">
+            <input type="text"  name="name" class="input-field" placeholder="enter username" >
+            <input type="password"  name="password"class="input-field" placeholder="enter password" >
+            <input type="checkbox" class="check-box"><span>Remember password</span>
+            <button type="submit" class="submit-btn" name="sumb" onclick="validationlogin()"> 
+                <a href="../html_codes/explore.html">Login</a>
+            </button>
+            
+        </form>
+        <!--sign up-->
+
+        <form id="signup" class="input-group" name="signupform">
+            <input type="text" class="input-field" placeholder="enter username" name="name1">
+            <input type="email" class="input-field" placeholder="enter email" name="email1">
+            <input type="password" class="input-field" placeholder="enter password" name="password">
+            <input type="checkbox" class="check-box" name="check" required><span>I agree to thr terms and conditions</span>
+            <button type="submit" class="submit-btn" name="subbutton" onclick="validationsignup()"><a href="../html_codes/explore.html">sign up</a></button>
+        </form>
+
+        </div>
+        
+    </div>
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("signup");
+        var z=document.getElementById("btn");
+
+        function signup(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+            
+        }
+
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+            
+        }
+    </script>
+
+
+</body>
+
+</html>
